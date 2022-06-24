@@ -24,7 +24,7 @@ order by 1,2
 
 Select Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 From PortfolioProject..CovidDeaths
-Where location like '%states%'
+Where location like '%india%'
 and continent is not null 
 order by 1,2
 
